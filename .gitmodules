@@ -9,22 +9,7 @@
 	url = https://github.com/andOrlando/color.git
 [submodule "config/awesome/module/battery_widget"]
 	path = config/awesome/module/battery_widget
-	url = https://github.com/Aire-One/awesome-battery_widget.git
+	url = https://github.com/andOrlando/color.git
 [submodule "config/awesome/module/layout-machi"]
 	path = config/awesome/module/layout-machi
-	url = https://github.com/xinhaoyuan/layout-machi.git
-[submodule "bling"]
-	path = bling
-	url = https://github.com/BlingCorp/bling.git
-[submodule "rubato"]
-	path = rubato
-	url = https://github.com/andOrlando/rubato.git
-[submodule "color"]
-	path = color
-	url = https://github.com/andOrlando/color.git
-[submodule "awesome-battery_widget"]
-	path = awesome-battery_widget
 	url = https://github.com/Aire-One/awesome-battery_widget.git
-[submodule "layout-machi"]
-	path = layout-machi
-	url = https://github.com/xinhaoyuan/layout-machi.git
