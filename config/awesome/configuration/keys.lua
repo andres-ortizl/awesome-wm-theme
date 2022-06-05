@@ -42,6 +42,11 @@ awful.keyboard.append_global_keybindings({
 	awful.key({ mod, shift }, "f", function()
 		awful.spawn(apps.default.file_manager)
 	end, { description = "open file manager", group = "app" }),
+        
+    -- Spotify
+	awful.key({ mod, shift }, "m", function()
+		awful.spawn(apps.default.spotify)
+	end, { description = "open spotify", group = "app" }),
 
 	-- Web browser
 	awful.key({ mod, shift }, "w", function()
