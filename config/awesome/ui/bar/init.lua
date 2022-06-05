@@ -72,9 +72,9 @@ awful.screen.connect_for_each_screen(function(s)
 
 	-- Widgets
 	s.mytaglist = require("ui.widgets.taglist")(s)
-	s.github_activity = require("ui.widgets.github-activity")
+--	s.github_activity = require("ui.widgets.github-activity")
 	s.tray_toggler = require("ui.widgets.tray-toggle")
-	s.battery = require("ui.widgets.battery")()
+--	s.battery = require("ui.widgets.battery")()
 	s.network = require("ui.widgets.network")()
 	s.dashboard_toggle = require("ui.widgets.dashboard-toggle")()
 	s.control_center_toggle = require("ui.widgets.hamburger")(awful.button({}, 1, function()
